@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<body lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Top Rated Cryptocurrency Hardware Wallet">
+    <meta name="author" content="Tim Marchant">
+    <meta name="keywords" content="bitcoin, blockchain, crypto, cryptocurrency, btc, hardware wallet">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/master.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <title>Cryptocurrency Hardware Wallets</title>
+</head>
+<body>
+    <nav>
+        <div class="nav" id="navjs">
+            <a href="index.html"><i class="fa fa-fw fa-home"></i>WALLETHUB</a>
+            <a href="#starthere">START HERE</a>
+            <a href="#trezormodelt">TREZOR MODEL T</a>
+            <a href="#ledgernanox">LEDGER NANO X</a>
+            <a href="#newsletter">NEWSLETTER</a>
+            <a href="javascript:void(0);" class="icon" onclick="hamburgerNav()">
+                <i class="fa fa-bars"></i></a>
+            <script>
+                function hamburgerNav() {
+                    var x = document.getElementById("navjs");
+                    if (x.className === "nav") {
+                        x.className += " responsive";
+                    } else {
+                        x.className = "nav";
+                    }
+                }
+            </script>
+        </div>
+    </nav>
+    <header>
+        <div id="header">
+            <h1>Top Hardware Wallets of 2020!</h1>
+            <h2 id="greeting"></h2>
+            <div id="header_btn">
+                <a href="#starthere" class="getstarted_btn">Start Here</a>
+                <a href="#newsletter" class="getstarted_btn">Newsletter Signup</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h3 id ="starthere">Hardware Wallets</h3>
+            <p>Bitcoin hardware wallets are a tamper-proof electronic device designed to store private keys of your coins in an offline
+            setting. The private keys and digital signatures needed to spend bitcoins are generated via these wallets.</p>
+        </section>
+        <section>
+            <h3 id="trezormodelt">Trezor Model T</h3>
+            <p>The Trezor Model T is the next-generation cryptocurrency hardware wallet, designed to be your universal vault for all of your digital assets. Store and encrypt your coins, passwords and other digital keys with confidence.</p>
+            <figure>
+                <img src="images/trezor-model-t.jpg" id="trezor-model-t" class="center" alt="Trezor Model T Hardware Wallet">
+                <figcaption>
+                    <br>Trezor Model T
+                </figcaption>
+            </figure>
+            <p>Price: $<span id="trezor"></span></p>
+        </section>
+        <section>
+            <h3 id="ledgernanox">Ledger Nano X</h3>
+            <p>The next level hardware wallet: securely manage your crypto, anywhere you go. The Ledger Nano X combines ease-of-use and flexibility while ensuring the highest standard of crypto security.</p>
+            <ul>
+                <li>Affordable</li>
+                <li>Easy to use</li>
+            </ul>
+            <figure>
+                <img src="images/ledger-nano-x.png" id="ledger-nano-x" class="center" alt="Ledger Nano X Hardware Wallet">
+                <figcaption>
+                    <br>Ledger Nano X
+                </figcaption>
+            </figure>
+            <p>Price: $<span id="ledger"></span></p>
+        </section>
+        <section>
+            <h3><strong>Want to you stay up to date with all things hardware wallets??</strong></h3>
+            <p class="center">A good start is to sign up for our monthly newsletter.</p>
+            <form action="newsletter.php" method="post" name="newsletter_form" id="newsletter_form">
+                <div class="container" style="background-color:white">
+                    <input type="text" name="first_name" id="first_name" placeholder="First Name" required>
+                    <input type="email" name="email" id="email" placeholder="Email" required><br>
+                    <input type="email" name="verify" id="verify" placeholder="Verify email" required
+                        autocomplete="off"><br>
+                </div>
+                <div class="container" id="newsletter">
+                    <input type="submit" id="subscribe" value="Subscribe">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h5 class="center">Made with ❤️ in Milwaukee, WI</h5>
+    </footer>
+    <script src="js/scripts.js"></script>
+    </body>

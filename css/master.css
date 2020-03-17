@@ -1,0 +1,295 @@
+/* 
+ * BY TIM MARCHANT
+ * WEBDEV114 FINAL
+ * LAST UPDATED: 11/25/19
+ */
+
+/***********
+ * DEFAULT *
+ ***********/
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/**************
+ * NAVIGATION *
+ **************/
+
+.nav {
+    background-color: #F7882F;
+    overflow: auto;
+}
+
+.nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 8px 12px;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+}
+
+.nav a:hover {
+    background-color: #6B7A8F;
+    color: white;
+}
+
+.nav .icon {
+    display: none;
+}
+
+/****************
+ * MAIN STYLING *
+ ****************/
+
+h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3em;
+    line-height: 1em;
+    text-align: center;
+    text-shadow: 1px 1px 2px #6B7A8F; 
+}
+
+h3 {
+    color: #F7882F;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-shadow: 1px 1px 2px #6B7A8F;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Lato', sans-serif;
+    color: #6B7A8F;
+    font-size: 1em;
+    line-height: .1em;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    color: #6B7A8F;
+    font-size: 1em;
+    line-height: 1.25em;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a {
+    color: #F7882F;
+}
+
+#header {
+    padding-top: 45px;
+    padding-bottom: 65px;
+    background-color: #F7882F;
+    text-align: center;
+}
+
+.header {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+#greeting {
+    color: white;
+}
+
+#header_btn {
+    text-align: center;
+    display: block;
+}
+
+#trezor-model-t {
+    max-width: 150px;
+}
+
+#ledger-nano-x {
+    max-width: 150px;
+}
+
+.getstarted_btn {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    border: none;
+    color: #F7882F;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.getstarted_btn:hover {
+    background-color: #6B7A8F;
+    color: #F7882F;
+}
+
+.center {
+    text-align: center;
+}
+
+.center_pad {
+    padding: 1.5em;
+}
+
+.getstarted_btn:hover {
+    background-color: #6B7A8F;
+    color: #F7882F;
+}
+
+section {
+    margin: 3.25em;
+}
+
+footer {
+    text-align: center;
+    background-color: #F7882F;
+    padding-top: .1em;
+    padding-bottom: .1em;
+}
+
+/****************
+ * FORM STYLING *
+ ****************/
+
+form {
+    text-align: center;
+}
+
+legend {
+    color: #F7882F;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    line-height: 1em;
+    text-shadow: 1px 1px 2px #6B7A8F;
+    text-align: center;  
+}
+
+input, textarea {
+    width: 75%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit], input[type=reset] {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    font-family: 'Raleway', sans-serif;
+    background-color: #F7882F;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    border-radius: 25px;
+    display: inline-block;
+    width: 35%;
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #6B7A8F;
+    color: #F7882F;
+}
+
+/*****************************
+ * CONTAINERS, ROWS, COLUMNS *
+ *****************************/
+
+.container {
+    padding: .25em;
+}
+
+.left {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.right {
+    float: left;
+    width: 75%;
+    text-align: center;
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.column2 {
+    float: left;
+    width: 45%;
+    text-align: center;
+    padding: 1.25em;
+}
+
+.column3 {
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 1.25em;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*************************
+ * RESPONSIVE NAVIGATION *
+ *************************/
+
+/* Hide links when the screen is less than 600 pixels wide. */
+@media screen and (max-width: 600px) {
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+        float: right;
+        display: block;
+  }
+    .nav.responsive {position: relative;}
+    .nav.responsive a.icon {
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+    .column2 {width: 100%;}
+    .column3 {width: 100%;}
+}
+
+.nav.responsive a {
+    float: none;
+    display: block;
+    color: white;
+    text-align: left;
+    padding: 8px 6px;
+  }
