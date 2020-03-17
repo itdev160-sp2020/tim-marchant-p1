@@ -1,6 +1,7 @@
 # Project 1
-- Create a website that utilizes the elements specified in Requirement 1. You may use any additional elements and techniques that you wish.
+Create a website that utilizes the elements specified in Requirement 1. You may use any additional elements and techniques that you wish.
 
+Requirements:
 - [Requirement 1](#Requirement1)
 - [Requirement 2](#Requirement2)
 - [Requirement 3](#Requirement3)
@@ -8,16 +9,16 @@
 ## Requirement1
 Utilize the following:
 
-#HTML 
+HTML 
 - Use a variety of the following elements: html, head, title, body, h1, ul (or ol or dl), a, img, table, p. 
 Link to an external font.
 
-#CSS
+CSS
 - *All styles should be defined in an external CSS file.
 - Use a variety of selectors targeting elements, classes, and ids.
 - Use the font that you imported into your html file. You can apply it to all text by setting the font-family property for the body element.
 
-#JavaScript
+JavaScript
 - Inject dynamic content into your website. Dynamic content typically comes from a database or by responding to user interaction. At this point, we’re just trying to understand the basics of JavaScript and how to control aspects of a web page. As such, we’ll hardcode some data in our JavaScript file and inject it into our web page, as we did in Activity 4.
 - Use variables to store data.
 - Use the DOM to reference elements in your web page and inject content.
